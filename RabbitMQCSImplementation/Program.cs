@@ -14,7 +14,7 @@ namespace RabbitMQCSImplementation
         static void Main(string[] args)
         {
             IRabbitMQClient rabbitMQClient = new RabbitMQClient("localhost");
-            string queueName = "testgw2";
+            string queueName = "dev";
 
             if (args != null && args.Any() && args[0].Equals("Sender", StringComparison.InvariantCultureIgnoreCase))
             {

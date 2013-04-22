@@ -59,6 +59,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RabbitMQCSImplementation.BO\RabbitMQCSImplementation.BO.csproj">
+      <Project>{e01f1bd6-7ea3-4205-81e5-76fcec8ae438}</Project>
+      <Name>RabbitMQCSImplementation.BO</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
